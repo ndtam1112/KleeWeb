@@ -1,0 +1,113 @@
+.radioOptions {
+    margin-bottom: 30px !important;
+    text-align: center;
+}
+    .radioOptions label {
+        padding: 0 10px;
+        line-height: 1.5;
+        display: inline-block;
+    }
+        .radioOptions label input[type="radio"] {
+            margin-right: 7px;
+        }
+
+.option__widthDrop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 500px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.getPrice__option, .addToCart__option {
+    margin-bottom: 15px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.option__width, .option__drop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.option__label {
+    width: 31%;
+    margin-right: 2%;
+    text-align: right;
+    min-width: 115px;
+}
+.option__input--widthDrop {
+    text-align: right;
+}
+
+.option__input {
+    width: 33%;
+}
+
+.standardBox {
+    color: #000;
+    background: #fff;
+    border: 1px solid #bdc8ce;
+}
+
+.standardBox {
+    font: inherit;
+    font-size: 16px;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 10px;
+    width: 100%;
+    min-height: 36px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: textfield;
+}
+.radioOptions__title {
+    margin-bottom: 5px;
+}
+.help-modal {
+    cursor: pointer;
+    color: #06c;
+}
+
+.curtainHeading {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    width: 120px;
+}
+.curtainHeading__title {
+    margin: 5px 0;
+    font-weight: bold;
+}
+.curtainHeading__price {
+    margin-bottom: 5px;
+}
