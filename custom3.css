@@ -411,3 +411,18 @@ hr {
 .misc__thumbnail--center {
     margin: 10px auto;
 }
+
+.megamenu__menu--colors .megamenu__menu-link img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.filters__item>img {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
