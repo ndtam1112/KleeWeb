@@ -411,3 +411,64 @@ hr {
 .misc__thumbnail--center {
     margin: 10px auto;
 }
+
+@media only screen and (min-width: 750px)
+{
+    .cForm__mainTitle {
+        text-align: center !important;
+        margin-top: 15px !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+.cForm__questions {
+    margin-bottom: 20px;
+}
+
+.cForm__accordian {
+    display: block;
+    margin: 0;
+}
+
+.cForm__toggle {
+    display: none;
+}
+.cForm__question {
+    font-size: 20px;
+    border-bottom: 1px dotted #CCCCCC;
+    margin: 0;
+    padding: 15px 5px;
+    cursor: pointer;
+}
+
+.cForm__question:before {
+    content: url(/Assets/img/site-icons/right-chevron-thick-purple.png);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    -webkit-transition: 200ms all;
+    transition: 200ms all;
+}
+
+.cForm__toggle:checked ~ .cForm__question:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.cForm__toggle:checked ~ .cForm__answer {
+    max-height: 2000px;
+    -webkit-transition: 200ms max-height;
+    transition: 200ms max-height;
+}
+.cForm__answer {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 400ms max-height;
+    transition: 400ms max-height;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.cForm__pad {
+    padding: 10px 10px 20px 10px;
+}

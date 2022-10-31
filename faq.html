@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="stylesheet" href="custom2.css" />
+    <link rel="stylesheet" href="custom3.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="cForm__mainTitle">
+          Please let us know how we can help so we can point you in the right
+          direction...
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="cForm__mainTitle">I'm about to place an order…</h2>
+      </div>
+    </div>
+    <div class="cForm__questions">
+      <label class="cForm__accordian">
+        <input type="checkbox" class="cForm__toggle" />
+        <h2 class="cForm__question">I'd like to place an order</h2>
+        <div class="cForm__answer">
+          <div class="cForm__pad">
+            <form action="/contact-form" method="post">
+              <input type="hidden" name="name" />
+              <input
+                type="hidden"
+                name="emailTo"
+                value="support@blinds-2go.co.uk"
+              />
+              <input type="hidden" name="emailFrom" />
+              <input
+                type="hidden"
+                name="subject"
+                value="I'd like to place an order"
+              />
+              <input type="hidden" name="orderreference" />
+              <input type="hidden" name="phone" />
+              <input type="hidden" name="body" />
+              <input type="hidden" name="deptId" value="1" />
+
+              <p>
+                We've made it easy-peasy to place an order through our website -
+                just click on your favourite curtains and enter your
+                measurements on the next screen. You can click to get an instant
+                price for those curtains, see delivery times and technical
+                specifications, and add them to your order basket, all from the
+                same screen. If you have any special requests, or require
+                further assistance, then feel free to
+                <input type="submit" class="formAsLink" value="get in touch" />.
+              </p>
+            </form>
+          </div>
+        </div>
+      </label>
+
+      <label class="cForm__accordian">
+        <input type="checkbox" class="cForm__toggle" />
+        <h2 class="cForm__question">I'd like to get a quote</h2>
+        <div class="cForm__answer">
+          <div class="cForm__pad">
+            <form action="/contact-form" method="post">
+              <input type="hidden" name="name" />
+              <input
+                type="hidden"
+                name="emailTo"
+                value="support@blinds-2go.co.uk"
+              />
+              <input type="hidden" name="emailFrom" />
+              <input
+                type="hidden"
+                name="subject"
+                value="I'd like to get a quote"
+              />
+              <input type="hidden" name="orderreference" />
+              <input type="hidden" name="phone" />
+              <input type="hidden" name="body" />
+              <input type="hidden" name="deptId" value="1" />
+
+              <p>
+                You can see prices for curtains by simply clicking on your
+                favourite then entering your measurements on the next page. You
+                can even fill up your order basket without checking out, to see
+                what the whole order will come to. If you'd like a formal quote
+                sent to you by email then you can contact our friendly sales
+                team either through live web chat or by
+                <input type="submit" class="formAsLink" value="email" />.
+              </p>
+            </form>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <br />
+        <h1 class="cForm__mainTitle">
+          I’ve placed my order and have some questions about my products…
+        </h1>
+      </div>
+    </div>
+
+    <div class="noOrderNo">
+      <div class="cForm__questions">
+        <label class="cForm__accordian">
+          <input type="checkbox" class="cForm__toggle" />
+          <h2 class="cForm__question">I'd like to amend my order</h2>
+          <div class="cForm__answer">
+            <div class="cForm__pad">
+              <form action="/contact-form" method="post">
+                <input type="hidden" name="name" value="" />
+                <input
+                  type="hidden"
+                  name="emailTo"
+                  value="orderchanges@blinds-2go.co.uk"
+                />
+                <input type="hidden" name="emailFrom" value="" />
+                <input
+                  type="hidden"
+                  name="subject"
+                  value="I'd like to amend my order"
+                />
+                <input type="hidden" name="orderreference" value="" />
+                <input type="hidden" name="phone" />
+                <input type="hidden" name="body" />
+                <input type="hidden" name="deptId" value="2" />
+
+                <p>
+                  If you can't find your order details or need to make changes
+                  not available on the
+                  <a href="/myorder">order amendment page</a>, then not to
+                  worry, just
+                  <input
+                    type="submit"
+                    class="formAsLink"
+                    value="pop our team a message"
+                  />
+                  to let them know precisely what you'd like to change and we'll
+                  get back to you ASAP.
+                </p>
+                <p>
+                  If your order has already been processed then we'll try our
+                  best to make any changes you ask for, but please note that
+                  once production of the order is underway, we will be unable to
+                  make any amendments.
+                </p>
+              </form>
+            </div>
+          </div>
+        </label>
+
+        <label class="cForm__accordian">
+          <input type="checkbox" class="cForm__toggle" />
+          <h2 class="cForm__question">
+            I’d like to see a VAT invoice for my order
+          </h2>
+          <div class="cForm__answer">
+            <div class="cForm__pad">
+              <form action="/contact-form" method="post">
+                <input type="hidden" name="name" value="" />
+                <input
+                  type="hidden"
+                  name="emailTo"
+                  value="support@blinds-2go.co.uk"
+                />
+                <input type="hidden" name="emailFrom" value="" />
+                <input
+                  type="hidden"
+                  name="subject"
+                  value="I’d like to see a VAT invoice for my order"
+                />
+                <input type="hidden" name="orderreference" value="" />
+                <input type="hidden" name="phone" />
+                <input type="hidden" name="body" />
+                <input type="hidden" name="deptId" value="2" />
+
+                <p>
+                  No problem, just click here to
+                  <a href="/myorder" target="_blank">view your order</a>, where
+                  you’ll see the option to see your printable invoice. If you
+                  don’t have your order details then not to worry, just
+                  <input
+                    type="submit"
+                    class="formAsLink"
+                    value="get in touch with our team"
+                  />
+                  and we’ll be happy to help.
+                </p>
+              </form>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
