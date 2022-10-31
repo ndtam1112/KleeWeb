@@ -426,3 +426,42 @@ hr {
     margin-right: 7px;
     border-radius: 50%;
 }
+
+.reassuranceBar {
+    background-color: #f7f6f7;
+    margin-bottom: 20px;
+    height: 46px;
+    overflow: hidden;
+}
+
+.container, #mainBodyContent, #searchContent {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.reassuranceBar__slide {
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 46px;
+    width: 100%;
+}
+
+.reassuranceBar__icon {
+    height: 27px;
+    margin-right: 10px;
+}
+
+.reassurance__row {
+    height: 46px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reassuranceBar__icon svg {
+    height: 100%;
+}
