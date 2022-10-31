@@ -517,10 +517,26 @@ hr {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .reassuranceBar__icon svg {
     height: 100%;
+}
+
+.reassuranceBar__heading {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reassuranceBar__subheading {
+    font-size: 12px;
+}
+
+.reassurance__col--30 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.333%;
 }
